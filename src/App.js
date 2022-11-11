@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Comment from './Comment';
-import Heart from './heart';
 
 const comment = {
     date: new Date(),
@@ -16,7 +15,6 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Heart />
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Phạm Sáng
