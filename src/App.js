@@ -6,7 +6,7 @@ const comment = {
     date: new Date(),
     text: 'I hope you enjoy learning React!',
     author: {
-        name: 'Hello Kitty',
+        name: 'Hello EveryOne',
         avatarUrl: 'https://placekitten.com/g/64/64',
     },
 };

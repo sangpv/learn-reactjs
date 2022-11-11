@@ -1,3 +1,10 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.851);
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +29,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
+  z-index: 9;
 }
 
 .App-link {
@@ -38,13 +47,6 @@
 }
 
 /* heart */
-.box {
-  width: 100%;
-  height: 100vh;
-  position: relative;padding: 0;
-  margin: 0;
-  background: rgba(0, 0, 0, 0.851);
-}
 canvas {
   position: absolute;
   width: 100%;
